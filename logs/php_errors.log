@@ -1,0 +1,35 @@
+[27-Jan-2026 18:18:11 Asia/Riyadh] Database Connection Error: SQLSTATE[HY000]: General error: 1298 Unknown or incorrect time zone: 'Asia/Riyadh'
+[27-Jan-2026 18:18:11 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to a member function testConnection() on null in C:\xampp\htdocs\WEBSERAG\includes\config.php:131
+Stack trace:
+#0 [internal function]: initialize_system()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\config.php on line 131
+[27-Jan-2026 16:21:52 Europe/Berlin] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\xampp\htdocs\WEBSERAG\includes\functions.php on line 13
+[27-Jan-2026 16:21:52 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::testConnection() in C:\xampp\htdocs\WEBSERAG\includes\config.php:147
+Stack trace:
+#0 [internal function]: initialize_system_after_load()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\config.php on line 147
+[27-Jan-2026 18:23:34 Asia/Riyadh] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\xampp\htdocs\WEBSERAG\includes\functions.php on line 13
+[27-Jan-2026 18:23:34 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::testConnection() in C:\xampp\htdocs\WEBSERAG\includes\config.php:147
+Stack trace:
+#0 [internal function]: initialize_system_after_load()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\config.php on line 147
+[27-Jan-2026 18:24:07 Asia/Riyadh] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\xampp\htdocs\WEBSERAG\includes\functions.php on line 13
+[27-Jan-2026 18:24:07 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::testConnection() in C:\xampp\htdocs\WEBSERAG\includes\config.php:147
+Stack trace:
+#0 [internal function]: initialize_system_after_load()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\config.php on line 147
+[27-Jan-2026 18:24:10 Asia/Riyadh] PHP Warning:  Constant MAX_FILE_SIZE already defined in C:\xampp\htdocs\WEBSERAG\includes\functions.php on line 13
+[27-Jan-2026 18:24:10 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::testConnection() in C:\xampp\htdocs\WEBSERAG\includes\config.php:147
+Stack trace:
+#0 [internal function]: initialize_system_after_load()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\config.php on line 147
+[27-Jan-2026 18:48:08 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::testConnection() in C:\xampp\htdocs\WEBSERAG\includes\config.php:147
+Stack trace:
+#0 [internal function]: initialize_system_after_load()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\config.php on line 147

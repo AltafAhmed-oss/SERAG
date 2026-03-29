@@ -1,0 +1,571 @@
+[27-Jan-2026 19:59:32 Asia/Riyadh] POST Data: Array
+(
+    [csrf_token] => 4c747507df583cb66883aca3b6c42a63e216f9866c18ebe48fc46d27a8e562c1
+    [fullName] => اتات
+    [companyName] => غتا
+    [email] => aa@gmail.com
+    [phone] => 7897989
+    [service] => erp
+    [projectScope] => medium
+    [budget] => 0-5000
+    [features] => Array
+        (
+            [0] => responsive-design
+            [1] => multi-language
+            [2] => payment-gateway
+            [3] => admin-panel
+            [4] => api-integration
+            [5] => technical-support
+        )
+
+    [projectDescription] => jgjg
+    [timeline] => normal
+)
+
+[27-Jan-2026 19:59:32 Asia/Riyadh] FILES Data: Array
+(
+    [attachments] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[27-Jan-2026 19:59:51 Asia/Riyadh] POST Data: Array
+(
+    [csrf_token] => 4c747507df583cb66883aca3b6c42a63e216f9866c18ebe48fc46d27a8e562c1
+    [fullName] => اتات
+    [companyName] => غتا
+    [email] => aa@gmail.com
+    [phone] => 789798912
+    [service] => erp
+    [projectScope] => medium
+    [budget] => 0-5000
+    [features] => Array
+        (
+            [0] => responsive-design
+            [1] => multi-language
+            [2] => payment-gateway
+            [3] => admin-panel
+            [4] => api-integration
+            [5] => technical-support
+        )
+
+    [projectDescription] => jgjg
+    [timeline] => normal
+)
+
+[27-Jan-2026 19:59:51 Asia/Riyadh] FILES Data: Array
+(
+    [attachments] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[27-Jan-2026 20:00:04 Asia/Riyadh] POST Data: Array
+(
+    [csrf_token] => 4c747507df583cb66883aca3b6c42a63e216f9866c18ebe48fc46d27a8e562c1
+    [fullName] => اتات
+    [companyName] => غتا
+    [email] => aa@gmail.com
+    [phone] => +967 789798912
+    [service] => erp
+    [projectScope] => medium
+    [budget] => 0-5000
+    [features] => Array
+        (
+            [0] => responsive-design
+            [1] => multi-language
+            [2] => payment-gateway
+            [3] => admin-panel
+            [4] => api-integration
+            [5] => technical-support
+        )
+
+    [projectDescription] => jgjg
+    [timeline] => normal
+)
+
+[27-Jan-2026 20:00:04 Asia/Riyadh] FILES Data: Array
+(
+    [attachments] => Array
+        (
+            [name] => Array
+                (
+                    [0] => 
+                )
+
+            [full_path] => Array
+                (
+                    [0] => 
+                )
+
+            [type] => Array
+                (
+                    [0] => 
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => 
+                )
+
+            [error] => Array
+                (
+                    [0] => 4
+                )
+
+            [size] => Array
+                (
+                    [0] => 0
+                )
+
+        )
+
+)
+
+[27-Jan-2026 20:00:04 Asia/Riyadh] SQL Query: INSERT INTO quote_requests 
+              (reference, full_name, company_name, email, phone, service_type, project_scope, budget_range, 
+               timeline, features, project_description, attachments, status, created_at) 
+              VALUES 
+              (:reference, :full_name, :company_name, :email, :phone, :service_type, :project_scope, 
+               :budget_range, :timeline, :features, :project_description, :attachments, 'pending', NOW())
+[27-Jan-2026 20:00:05 Asia/Riyadh] Insert successful. ID: 1
+[27-Jan-2026 20:00:05 Asia/Riyadh] Log error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seragsoft_db.activity_log' doesn't exist
+[27-Jan-2026 20:00:07 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 370
+[27-Jan-2026 20:00:07 Asia/Riyadh] Failed to send email to: aa@gmail.com
+[27-Jan-2026 20:00:09 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 411
+[27-Jan-2026 20:00:09 Asia/Riyadh] Failed to send admin email to: admin@seragsoft.com
+[27-Jan-2026 20:00:20 Asia/Riyadh] POST Data: Array
+(
+    [csrf_token] => 4c747507df583cb66883aca3b6c42a63e216f9866c18ebe48fc46d27a8e562c1
+    [fullName] => اتات
+    [companyName] => غتا
+    [email] => aa@gmail.com
+    [phone] => +967 789798912
+    [service] => erp
+    [projectScope] => medium
+    [budget] => 0-5000
+    [features] => Array
+        (
+            [0] => responsive-design
+            [1] => multi-language
+            [2] => payment-gateway
+            [3] => admin-panel
+            [4] => api-integration
+            [5] => technical-support
+        )
+
+    [projectDescription] => jgjg
+    [timeline] => normal
+)
+
+[27-Jan-2026 20:00:20 Asia/Riyadh] FILES Data: Array
+(
+    [attachments] => Array
+        (
+            [name] => Array
+                (
+                    [0] => برشور النظام copy.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => برشور النظام copy.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php88D1.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 38176952
+                )
+
+        )
+
+)
+
+[27-Jan-2026 20:00:20 Asia/Riyadh] Created directory: uploads/quote_attachments/
+[27-Jan-2026 20:00:20 Asia/Riyadh] File upload error: 0 or size too large: 38176952
+[27-Jan-2026 20:00:20 Asia/Riyadh] SQL Query: INSERT INTO quote_requests 
+              (reference, full_name, company_name, email, phone, service_type, project_scope, budget_range, 
+               timeline, features, project_description, attachments, status, created_at) 
+              VALUES 
+              (:reference, :full_name, :company_name, :email, :phone, :service_type, :project_scope, 
+               :budget_range, :timeline, :features, :project_description, :attachments, 'pending', NOW())
+[27-Jan-2026 20:00:20 Asia/Riyadh] Insert successful. ID: 2
+[27-Jan-2026 20:00:20 Asia/Riyadh] Log error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seragsoft_db.activity_log' doesn't exist
+[27-Jan-2026 20:00:22 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 370
+[27-Jan-2026 20:00:22 Asia/Riyadh] Failed to send email to: aa@gmail.com
+[27-Jan-2026 20:00:24 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 411
+[27-Jan-2026 20:00:24 Asia/Riyadh] Failed to send admin email to: admin@seragsoft.com
+[27-Jan-2026 20:00:40 Asia/Riyadh] POST Data: Array
+(
+    [csrf_token] => 4c747507df583cb66883aca3b6c42a63e216f9866c18ebe48fc46d27a8e562c1
+    [fullName] => اتات
+    [companyName] => غتا
+    [email] => aa@gmail.com
+    [phone] => +967 789798912
+    [service] => custom
+    [projectScope] => medium
+    [budget] => 50000-100000
+    [features] => Array
+        (
+            [0] => responsive-design
+            [1] => multi-language
+            [2] => payment-gateway
+            [3] => admin-panel
+        )
+
+    [projectDescription] => jgjg
+    [timeline] => normal
+)
+
+[27-Jan-2026 20:00:40 Asia/Riyadh] FILES Data: Array
+(
+    [attachments] => Array
+        (
+            [name] => Array
+                (
+                    [0] => برشور النظام copy.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => برشور النظام copy.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\phpD7DD.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 38176952
+                )
+
+        )
+
+)
+
+[27-Jan-2026 20:00:40 Asia/Riyadh] File upload error: 0 or size too large: 38176952
+[27-Jan-2026 20:00:40 Asia/Riyadh] SQL Query: INSERT INTO quote_requests 
+              (reference, full_name, company_name, email, phone, service_type, project_scope, budget_range, 
+               timeline, features, project_description, attachments, status, created_at) 
+              VALUES 
+              (:reference, :full_name, :company_name, :email, :phone, :service_type, :project_scope, 
+               :budget_range, :timeline, :features, :project_description, :attachments, 'pending', NOW())
+[27-Jan-2026 20:00:40 Asia/Riyadh] Insert successful. ID: 3
+[27-Jan-2026 20:00:40 Asia/Riyadh] Log error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seragsoft_db.activity_log' doesn't exist
+[27-Jan-2026 20:00:42 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 370
+[27-Jan-2026 20:00:42 Asia/Riyadh] Failed to send email to: aa@gmail.com
+[27-Jan-2026 20:00:44 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 411
+[27-Jan-2026 20:00:44 Asia/Riyadh] Failed to send admin email to: admin@seragsoft.com
+[27-Jan-2026 20:01:02 Asia/Riyadh] POST Data: Array
+(
+    [csrf_token] => 4c747507df583cb66883aca3b6c42a63e216f9866c18ebe48fc46d27a8e562c1
+    [fullName] => الطاف احمد
+    [companyName] => سراج سوفت
+    [email] => aa@gmail.com
+    [phone] => +967 789798912
+    [service] => custom
+    [projectScope] => medium
+    [budget] => 50000-100000
+    [features] => Array
+        (
+            [0] => responsive-design
+            [1] => multi-language
+            [2] => payment-gateway
+            [3] => admin-panel
+        )
+
+    [projectDescription] => jgjg
+    [timeline] => normal
+)
+
+[27-Jan-2026 20:01:02 Asia/Riyadh] FILES Data: Array
+(
+    [attachments] => Array
+        (
+            [name] => Array
+                (
+                    [0] => برشور النظام copy.jpg
+                )
+
+            [full_path] => Array
+                (
+                    [0] => برشور النظام copy.jpg
+                )
+
+            [type] => Array
+                (
+                    [0] => image/jpeg
+                )
+
+            [tmp_name] => Array
+                (
+                    [0] => C:\xampp\tmp\php2DCE.tmp
+                )
+
+            [error] => Array
+                (
+                    [0] => 0
+                )
+
+            [size] => Array
+                (
+                    [0] => 38176952
+                )
+
+        )
+
+)
+
+[27-Jan-2026 20:01:02 Asia/Riyadh] File upload error: 0 or size too large: 38176952
+[27-Jan-2026 20:01:02 Asia/Riyadh] SQL Query: INSERT INTO quote_requests 
+              (reference, full_name, company_name, email, phone, service_type, project_scope, budget_range, 
+               timeline, features, project_description, attachments, status, created_at) 
+              VALUES 
+              (:reference, :full_name, :company_name, :email, :phone, :service_type, :project_scope, 
+               :budget_range, :timeline, :features, :project_description, :attachments, 'pending', NOW())
+[27-Jan-2026 20:01:02 Asia/Riyadh] Insert successful. ID: 4
+[27-Jan-2026 20:01:02 Asia/Riyadh] Log error: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'seragsoft_db.activity_log' doesn't exist
+[27-Jan-2026 20:01:04 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 370
+[27-Jan-2026 20:01:04 Asia/Riyadh] Failed to send email to: aa@gmail.com
+[27-Jan-2026 20:01:06 Asia/Riyadh] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in C:\xampp\htdocs\WEBSERAG\process-quote.php on line 411
+[27-Jan-2026 20:01:06 Asia/Riyadh] Failed to send admin email to: admin@seragsoft.com
+[01-Feb-2026 14:53:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in C:\xampp\htdocs\WEBSERAG\request-quote.php:23
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\request-quote.php(79): getPricingData()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\request-quote.php on line 23
+[01-Feb-2026 15:17:50 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 16:29:40 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\export_excel.php on line 17
+[01-Feb-2026 16:29:51 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:29:54 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:29:56 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:30:09 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:30:21 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:30:22 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:30:25 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 16:31:15 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\export_excel.php on line 17
+[01-Feb-2026 17:31:47 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 17:35:32 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 17:36:09 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 17:36:10 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 17:39:16 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 17:46:15 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 17:47:32 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 17:50:03 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 17:50:47 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "DatabaseConnection" not found in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:37
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 37
+[01-Feb-2026 17:51:57 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "DatabaseConnection" not found in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:37
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 37
+[01-Feb-2026 17:57:33 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "DatabaseConnection" not found in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:37
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 37
+[01-Feb-2026 17:57:46 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "DatabaseConnection" not found in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:37
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 37
+[01-Feb-2026 18:00:50 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnection() in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:31
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 31
+[01-Feb-2026 18:00:54 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnection() in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:31
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 31
+[01-Feb-2026 18:02:05 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method Database::getConnection() in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:31
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 31
+[01-Feb-2026 18:04:10 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 18:06:56 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:1019
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 1019
+[01-Feb-2026 18:08:24 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\export_excel.php on line 17
+[01-Feb-2026 18:08:34 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 18:08:37 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 18:08:52 Asia/Riyadh] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\xampp\htdocs\WEBSERAG\dashboard1\api\quote_api.php on line 36
+[01-Feb-2026 18:10:25 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:1019
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 1019
+[01-Feb-2026 18:11:13 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 18:11:14 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 18:12:19 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 18:14:25 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 18:15:24 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:24:53 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:24:57 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:25:17 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:26:19 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:37:39 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 20:38:26 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 20:38:26 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "Database" not found in C:\xampp\htdocs\WEBSERAG\index.php:6
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\index.php on line 6
+[01-Feb-2026 20:39:04 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:41:30 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method DatabaseConnection::getConnection() in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:38
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 38
+[01-Feb-2026 20:47:09 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:51:06 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:52:38 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 20:52:43 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:03:24 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:04:56 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Class "DatabaseConnection" not found in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php:39
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(250): include()
+#1 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php on line 39
+[01-Feb-2026 21:19:52 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:41:52 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:45:10 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:46:17 Asia/Riyadh] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:46:29 Asia/Riyadh] PHP Fatal error:  Namespace declaration statement has to be the very first statement or after any declare call in the script in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:46:42 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:47:46 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[01-Feb-2026 21:59:56 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[02-Feb-2026 16:49:36 Asia/Riyadh] PHP Fatal error:  Cannot declare class Database, because the name is already in use in C:\xampp\htdocs\WEBSERAG\includes\database.php on line 5
+[02-Feb-2026 19:57:43 Asia/Riyadh] خطأ في جلب طلبات عرض السعر: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''100' OFFSET '0'' at line 1
+[02-Feb-2026 19:58:06 Asia/Riyadh] خطأ في جلب طلبات عرض السعر: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''100' OFFSET '0'' at line 1
+[02-Feb-2026 19:58:10 Asia/Riyadh] خطأ في جلب طلبات عرض السعر: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''100' OFFSET '0'' at line 1
+[02-Feb-2026 19:58:24 Asia/Riyadh] خطأ في جلب طلبات عرض السعر: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''100' OFFSET '0'' at line 1
+[02-Feb-2026 20:00:42 Asia/Riyadh] خطأ في جلب طلبات عرض السعر: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''100' OFFSET '0'' at line 1
+[02-Feb-2026 20:14:19 Asia/Riyadh] Connection error: SQLSTATE[HY000] [1049] Unknown database 'webserag'
+[02-Feb-2026 20:14:19 Asia/Riyadh] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'webserag' in C:\xampp\htdocs\WEBSERAG\includes\database1.php:15
+Stack trace:
+#0 C:\xampp\htdocs\WEBSERAG\includes\database1.php(15): PDO->__construct('mysql:host=loca...', 'root', Object(SensitiveParameterValue), Array)
+#1 C:\xampp\htdocs\WEBSERAG\dashboard1\pages\quote_requests.php(10): DatabaseConnection->getConnection()
+#2 C:\xampp\htdocs\WEBSERAG\dashboard1\index.php(249): include('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\WEBSERAG\includes\database1.php on line 15
